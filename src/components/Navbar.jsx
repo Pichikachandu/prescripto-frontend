@@ -61,7 +61,7 @@ const Navbar = () => {
       <div className='flex items-center gap-4'>
         {/* Admin Panel Button - Always visible */}
         <button 
-          onClick={() => window.location.href = 'http://localhost:5174'}
+          onClick={() => window.location.href = 'https://docspots-admins.vercel.app/'}
           className='hidden md:block bg-white text-gray-700 border border-gray-300 px-4 py-2 rounded-full hover:bg-gray-50 transition-colors'
         >
           Admin Panel
